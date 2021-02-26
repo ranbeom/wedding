@@ -5,13 +5,50 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=1">
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://ranbeom.github.io/wedding/style.css">
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body>
   <div id="main">
     가나다라마바사아자차카타파하하하하하하
     <br><br>
     <img src="https://user-images.githubusercontent.com/79675829/109253571-6c441b00-7833-11eb-9f05-c52129479f0e.png" style="width:150px;">
-    
+    <a href="javascript:sendLink()">카카오톡 공유</a>
  </div>
+  
+  <script>
+
+    Kakao.init('547448');
+
+     
+
+    function sendLink() {
+
+        Kakao.Link.sendTalkLink({
+
+            label: 'RANBEOM',
+
+            webLink: {
+
+                text: 'RANBEOM TEST',
+
+                url: 'https://ranbeom.github.io/wedding/'
+
+            },
+
+            image: { // 80 * 80 이상
+
+                src: '대표이미지 url',
+
+                width: '대표이미지 width',
+
+                height: '대표이미지 height'
+
+            }
+
+        });
+
+    }
+
+  </script>
 </body>
 </html>
