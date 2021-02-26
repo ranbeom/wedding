@@ -16,40 +16,19 @@
     <a href="javascript:sendLink()">카카오톡 공유</a>
  </div>
   
-  <script>
+ <script>
+  Kakao.init('547448');
 
-    Kakao.init('547448');
-
-     
-
-    function sendLink() {
-
-        Kakao.Link.sendTalkLink({
-
-            label: 'RANBEOM',
-
-            webLink: {
-
-                text: 'RANBEOM TEST',
-
-                url: 'https://ranbeom.github.io/wedding/'
-
-            },
-
-            image: { // 80 * 80 이상
-
-                src: '대표이미지 url',
-
-                width: '대표이미지 width',
-
-                height: '대표이미지 height'
-
-            }
-
-        });
-
-    }
-
-  </script>
+  function sendLink() { // 카카오톡 공유하기
+  Kakao.Link.sendDefault({
+      objectType: 'text',
+      text: '란범테스트',
+      link: {
+        mobileWebUrl: 'https://ranbeom.github.io/wedding/',
+        webUrl: 'https://ranbeom.github.io/wedding/',
+      },
+    })
+  }
+ </script>
 </body>
 </html>
