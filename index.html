@@ -9,26 +9,39 @@
 <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body>
-  <div id="main">
-    가나다라마바사아자차카타파하하하하하하
-    <br><br>
-    <img src="https://user-images.githubusercontent.com/79675829/109253571-6c441b00-7833-11eb-9f05-c52129479f0e.png" style="width:150px;">
-    <a href="javascript:sendLink()">카카오톡 공유</a>
- </div>
+<div id="main">
+   가나다라마바사아자차카타파하하하하하하
+   <br><br>
+   <img src="https://user-images.githubusercontent.com/79675829/109253571-6c441b00-7833-11eb-9f05-c52129479f0e.png" style="width:150px;">
+   <a href="javascript:sendLink()">카카오톡 공유</a>
+</div>
   
- <script>
+<script>
   Kakao.init('bf660b8e7c82c15c6c44b5568a363bb8');
 
   function sendLink() { // 카카오톡 공유하기
   Kakao.Link.sendDefault({
-      objectType: 'text',
-      text: '란범테스트',
-      link: {
-        mobileWebUrl: 'https://ranbeom.github.io/wedding/',
-        webUrl: 'https://ranbeom.github.io/wedding/',
-      },
+      objectType: 'feed',
+        content: {
+            title: '란범테스트',
+            description: $('meta[name="description"]').attr('content'),
+            imageUrl: $('meta[property="og:image"]').attr('content'),
+            link: {
+                mobileWebUrl: 'https://ranbeom.github.io/wedding/',
+                webUrl: 'https://ranbeom.github.io/wedding/',
+            },
+        },
+      buttons: [
+            {
+                title: '청첩장 보기',
+                link: {
+                    mobileWebUrl: 'https://ranbeom.github.io/wedding/',
+                    webUrl: 'https://ranbeom.github.io/wedding/',
+                },
+            }
+        ],
     })
   }
- </script>
+</script>
 </body>
 </html>
