@@ -24,8 +24,8 @@
 #greeting h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #greeting p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
-#profile {width:100%; overflow:hidden; padding:70px 0; background-color:#fff; text-align:center;}
-#profile .img {width:150px;}
+#profile {width:100%; overflow:hidden; padding:50px 0; background-color:#fff; text-align:center;}
+#profile .img {width:200px;}
 #profile .name {width:250px; margin-top:10px;}
 
 html {
