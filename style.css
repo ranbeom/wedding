@@ -1,5 +1,17 @@
-#main {width:100%; height:700px; background:url('https://user-images.githubusercontent.com/79675829/109526016-04e3d080-7aaa-11eb-9015-f3375f04858a.jpg')center no-repeat; background-attachment: fixed; background-size:cover; color:#fff; font-family: 'MapoFlowerIsland'; text-align:center; font-size:30px;}
-
+#main {
+	width:100%; height:700px; 
+	background:url('https://user-images.githubusercontent.com/79675829/109526016-04e3d080-7aaa-11eb-9015-f3375f04858a.jpg')center no-repeat; 
+	background-attachment: fixed; background-size:cover; 
+	color:#fff; font-family: 'MapoFlowerIsland'; text-align:center; font-size:30px;
+}
+#main_slogan {
+	width:100%; padding:35px 0; text-align:center; background-color:#fff; overflow:hidden;
+	font-family: 'MapoFlowerIsland';
+	color:#000;
+}
+#main_slogan h2 {font-size:22px; padding-bottom:10px;}
+#main_slogan h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px;}
+#main_slogan p {font-size:16px;}
 
 html {
 	overflow-y:scroll;
