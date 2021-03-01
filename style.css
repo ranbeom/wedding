@@ -6,13 +6,12 @@
 }
 
 #main_slogan {
-	width:100%; padding:35px 0; text-align:center; background-color:#fff; overflow:hidden;
-	font-family: 'MapoFlowerIsland';
+	width:100%; padding:55px 0; text-align:center; background-color:#fff; overflow:hidden;
 	color:#000;
 }
-#main_slogan h2 {font-size:22px; padding-bottom:10px;}
-#main_slogan h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px;}
-#main_slogan p {font-size:16px;}
+#main_slogan h2 {font-size:22px; padding-bottom:10px; font-family: 'MapoFlowerIsland';}
+#main_slogan h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
+#main_slogan p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
 html {
 	overflow-y:scroll;
