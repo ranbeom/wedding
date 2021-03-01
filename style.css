@@ -14,11 +14,12 @@
 #main_slogan p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
 #greeting {
-	width:100%; overflow:hidden; padding:70px 0; 
-	background:url('https://user-images.githubusercontent.com/79675829/109538003-7d04c300-7ab7-11eb-943f-40eafefacbd8.png')center top 70px no-repeat;
+	width:100%; overflow:hidden; padding:35px 0; 
+	background-color:#000;
 	background-attachment: fixed;
 	text-align:center;
 }
+#greeting .box {width:95%; margin:0 auto; background-color:rgba(255,255,255,.7); overflow:hidden;}
 #greeting h4 {padding-top:300px; opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #greeting p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
