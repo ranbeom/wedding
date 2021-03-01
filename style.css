@@ -13,6 +13,14 @@
 #main_slogan h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #main_slogan p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
+#greeting {
+	width:100%; overflow:hidden; padding:70px 0; 
+	background:url('https://user-images.githubusercontent.com/79675829/109537374-b7ba2b80-7ab6-11eb-8863-b504dd8d6f8a.png')center top 70px no-repeat;
+	background-attachment: fixed;
+	text-align:center;
+}
+#greeting h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
+#greeting p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 
 html {
 	overflow-y:scroll;
