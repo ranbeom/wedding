@@ -15,8 +15,9 @@
 
 #greeting {
 	width:100%; overflow:hidden; padding:50px 0; 
-	background-color:#000;
+	background:url('https://user-images.githubusercontent.com/79675829/109539441-3ca64480-7ab9-11eb-897a-3c2bfb06aab3.jpg')center no-repeat;
 	background-attachment: fixed;
+	background-size:cover;
 	text-align:center;
 }
 #greeting .box {width:90%; padding:50px 0; margin:0 auto; background-color:rgba(255,255,255,.7); overflow:hidden; color:#fff;}
