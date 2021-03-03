@@ -54,6 +54,7 @@
 	
 <script type="text/javascript"> 
 $(document).ready(function(){
+	/*
 	$('.bxslider').bxSlider({
 		auto: true,
 		adaptiveHeight: true,
@@ -61,7 +62,17 @@ $(document).ready(function(){
 			slider.stopAuto();
 			slider.startAuto();
 		}
-		//autoControls: true
+	});
+	*/
+	var slider = $(".bxslider").bxSlider({
+		pause: 4000,
+		auto: true,
+		adaptiveHeight: true,
+		controls: false,
+		onSlideAfter: function() {
+			slider.stopAuto();
+			slider.startAuto();
+		}
 	});
 
 });
