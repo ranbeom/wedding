@@ -38,10 +38,28 @@
    <img src="https://user-images.githubusercontent.com/79675829/109541432-b808f580-7abb-11eb-8e11-48aaa21ff66c.png" class="name">
    <!--<p>
       <b>김태현·김영희</b>의 장남 <b>범준</b>
-   </p>-->
-   
-    
+   </p>-->  
 </div>
+   
+<!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1614738790740" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%; height:251px;"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1614738790740",
+		"key" : "24o5w",
+		//"mapWidth" : "640",
+		"mapHeight" : "250"
+	}).render();
+</script>
    
 <a id="kakao-link-btn" href="javascript:sendLink()"><img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/></a>
    
@@ -70,7 +88,7 @@
       },
       buttons: [
         {
-          title: '웹으로 보기',
+          title: '청첩장 보기',
           link: {
             mobileWebUrl: 'https://ranbeom.github.io/wedding/',
             webUrl: 'https://ranbeom.github.io/wedding/',
