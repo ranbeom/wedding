@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=1">
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://ranbeom.github.io/wedding/style.css">
+<link rel="stylesheet" href="https://ranbeom.github.io/wedding/jquery.bxslider.css">
 <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script src="https://ranbeom.github.io/wedding/jquery.bxslider.min.js"></script>
 </head>
 <body>
    
@@ -40,6 +42,23 @@
       <b>김태현·김영희</b>의 장남 <b>범준</b>
    </p>-->  
 </div>
+	
+<ul class="bxslider">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+
+
+<script type="text/javascript"> 
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		auto: true,
+		//autoControls: true
+	});
+
+});
+</script>
    
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
