@@ -28,14 +28,16 @@
 #profile .img {width:250px;}
 #profile .name {width:250px; margin-top:10px;}
 
-#map_info {width:100%; overflow:hidden; padding:70px 0; background-color:#fff; text-align:center;}
+#map_info {width:100%; overflow:hidden; padding:50px 0; background-color:#fff; text-align:center;}
 #map_info h4 {font-size:22px; font-weight:normal; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #map_info p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 #map_info a {display:block; padding:10px 0; font-size:16px; font-family: 'MapoFlowerIsland';}
 
-#map_info ul {width:280px; margin:auto; overflow:hidden;}
-#map_info li {float:left; width:33.3333%; text-align:center; font-size:15px; color:#fff;}
-#map_info li img {width:80px;}
+#map_info ul {width:100%; margin:auto; overflow:hidden;}
+#map_info li {float:left; width:32%; margin-right:2%; text-align:center; }
+#map_info li b {font-weight:normal; color:#000; font-family: 'MapoFlowerIsland'; font-size:15px;}
+#map_info li:nth-child(3) {margin-right:0;}
+#map_info li img {width:60px;}
 
 html {
 	overflow-y:scroll;
