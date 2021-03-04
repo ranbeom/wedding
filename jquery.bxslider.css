@@ -74,11 +74,11 @@ ul.bxslider {
  
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background-color:rgba(0,0,0,.3);
+  background-color:rgba(255,255,255,.5);
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   margin: 0 5px;
   outline: 0;
   -moz-border-radius: 6px;
@@ -88,7 +88,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #fff;
+  background-color:rgba(255,255,255,1.0);
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
