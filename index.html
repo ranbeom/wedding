@@ -111,6 +111,8 @@ $(document).ready(function(){
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
 <div id="daumRoughmapContainer1614738790740" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%; height:251px;"></div>
+	
+	
 
 <!--
 	2. 설치 스크립트
@@ -129,7 +131,10 @@ $(document).ready(function(){
 </script>
    
 <a id="kakao-link-btn" href="javascript:sendLink()"><img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/></a>
-   
+
+<input type="text" id = "ShareUrl">
+<span class="btn-type1"><button OnClick="javascript:CopyUrlToClipboard()">URL 복사</button></span>
+	
 <!--
 <a id="kakao-link-btn" href="javascript:sendLink()"><img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/></a><br>
    <a href="http://kko.to/VDUcF2ADB" target="_blank">카카오톡지도</a>
@@ -163,6 +168,32 @@ $(document).ready(function(){
       ],
     })
   }
+</script>
+	
+<script language="javascript">
+function CopyUrlToClipboard()
+
+{
+
+	var obShareUrl = document.getElementById("ShareUrl");
+
+	obShareUrl.value = window.document.location.href;  // 현재 URL 을 세팅해 줍니다.
+
+
+
+	obShareUrl.select();  // 해당 값이 선택되도록 select() 합니다
+
+	document.execCommand("copy"); // 클립보드에 복사합니다.
+
+
+
+	obShareUrl.blur(); // 선택된 것을 다시 선택안된것으로 바꿈니다.
+
+		
+
+	alert("URL이 복사되었습니다"); 
+
+}
 </script>
    
   
