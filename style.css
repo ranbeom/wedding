@@ -33,6 +33,7 @@
 #map_info p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 #map_info a {display:block; padding:10px 0; font-size:16px; font-family: 'MapoFlowerIsland';}
 
+
 #map_info ul {overflow:hidden; padding:35px 20px 0 20px;}
 #map_info li {float:left; width:32%; margin-right:2%; text-align:center; }
 #map_info li b {font-weight:normal; color:#000; line-height:22px; font-family: 'MapoFlowerIsland'; font-size:15px; display:block;}
