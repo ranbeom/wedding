@@ -33,11 +33,11 @@
 #map_info p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
 #map_info a {display:block; padding:10px 0; font-size:16px; font-family: 'MapoFlowerIsland';}
 
-#map_info ul {width:100%; margin:auto; overflow:hidden;}
+#map_info ul {width:100%; margin:auto; overflow:hidden; padding-top:30px;}
 #map_info li {float:left; width:32%; margin-right:2%; text-align:center; }
 #map_info li b {font-weight:normal; color:#000; font-family: 'MapoFlowerIsland'; font-size:15px;}
 #map_info li:nth-child(3) {margin-right:0;}
-#map_info li img {width:60px;}
+#map_info li img {width:60px; padding-bottom:10px;}
 
 html {
 	overflow-y:scroll;
