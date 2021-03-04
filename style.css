@@ -29,9 +29,9 @@
 #profile .name {width:250px; margin-top:10px;}
 
 #map_info {width:100%; overflow:hidden; padding:50px 0; background-color:#fff; text-align:center;}
-#map_info h4 {font-size:22px; font-weight:normal; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
+#map_info h2 {font-size:26px; font-weight:normal; padding-bottom:12px; font-family: 'MapoFlowerIsland';}
+#map_info h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #map_info p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
-#map_info a {display:block; padding:10px 0; font-size:16px; font-family: 'MapoFlowerIsland';}
 
 
 #map_info ul {overflow:hidden; padding:35px 20px 0 20px;}
