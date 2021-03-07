@@ -32,7 +32,6 @@
 	text-align:center;
 }
 
-
 #greeting .box {width:90%; padding:50px 0; margin:0 auto; background-color:rgba(36,42,29,.7); overflow:hidden; color:#fff;}
 #greeting h4 {opacity:0.4; font-size:11px; letter-spacing:3px; padding-bottom:20px; font-family: 'MapoFlowerIsland';}
 #greeting p {font-size:16px; font-family: 'MapoFlowerIsland'; line-height:25px;}
