@@ -56,7 +56,6 @@
 #map_detail li {width:100; overflow:hidden; padding-bottom:10px; font-size:15px; font-family: 'MapoFlowerIsland'; color:#000; line-height:22px;}
 #map_detail li b {font-weight:bold; margin-right:10px; font-family: 'MapoFlowerIsland'; }
 
-
 html {
 	overflow-y:scroll;
 }
