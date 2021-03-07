@@ -58,6 +58,17 @@
 #map_detail li {width:100; overflow:hidden; padding-bottom:10px; font-size:15px; font-family: 'MapoFlowerIsland'; color:#555; line-height:22px;}
 #map_detail li b {font-weight:bold; margin-right:10px; font-family: 'MapoFlowerIsland'; }
 
+#share {
+	width:100%; overflow:hidden; padding:50px 0; 
+	background:url('https://user-images.githubusercontent.com/79675829/109539441-3ca64480-7ab9-11eb-897a-3c2bfb06aab3.jpg')center no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	text-align:center;
+}
+#share ul {width:280px; margin:0 auto;}
+#share li {float:left; width:50%; text-align:center; color:#fff; font-size:16px; line-height:22px;}
+#share li img {width:60px; padding-bottom:10px;}
+
 html {
 	overflow-y:scroll;
 }
