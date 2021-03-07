@@ -3,6 +3,7 @@
 	#wrap {width:640px; margin:0 auto; box-shadow:15px 15px 15px rgba(0,0,0,.1);}
 }
 
+
 @media screen and (max-width: 768px) {
     #wrap {width:100%}
 }
