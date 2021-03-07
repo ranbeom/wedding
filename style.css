@@ -68,7 +68,8 @@
 #share ul {width:280px; margin:0 auto;}
 #share li {float:left; width:50%; text-align:center; color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 #share li img {width:60px; padding-bottom:10px;}
-#share a {color:#fff;}
+#share li a {color:#fff;}
+
 
 html {
 	overflow-y:scroll;
