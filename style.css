@@ -38,7 +38,7 @@
 
 #profile {width:100%; overflow:hidden; padding:50px 0; background-color:#fff; text-align:center;}
 #profile .img {width:250px;}
-#profile .name {width:250px; margin-top:10px;}
+#profile .name {width:270px; margin-top:10px;}
 
 #map_info {width:100%; overflow:hidden; padding:50px 0; background-color:#fff; text-align:center;}
 #map_info h2 {font-size:26px; font-weight:normal; padding-bottom:12px; font-family: 'MapoFlowerIsland';}
