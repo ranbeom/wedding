@@ -51,7 +51,11 @@
 #map_info li:nth-child(3) {margin-right:0;}
 #map_info li img {width:60px; padding-bottom:15px;}
 
-
+#map_detail {width:100%; padding:50px 20px 20px 20px; overflow:hidden; background-color:#fff;}
+#map_detail h4 {font-size:19px; font-weight:normal; padding-bottom:12px; font-family: 'MapoFlowerIsland';}
+#map_detail ul {width:100%; overflow:hidden; padding-bottom:30px;}
+#map_detail li {width:100; overflow:hidden; padding-bottom:10px; font-size:15px; font-family: 'MapoFlowerIsland'; color:#000; line-height:22px;}
+#map_detail li b {font-weight:bold; margin-right:10px; font-family: 'MapoFlowerIsland'; }
 
 
 html {
