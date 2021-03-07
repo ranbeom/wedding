@@ -175,6 +175,21 @@ $(document).ready(function(){
 		</li>
 	</ul>
 </div>
+	
+<div id="share">
+	<ul>
+		<li>
+			<a id="kakao-link-btn" href="javascript:sendLink()">
+				<img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/><br>카카오톡 공유하기
+			</a>
+		</li>
+		<li>
+			<img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/><br>
+			<input type="hidden" id = "ShareUrl">
+			<span class="btn-type1"><button OnClick="javascript:CopyUrlToClipboard()">청첩장 주소 복사하기</button></span>
+		</li>
+	</ul>
+</div>
    
 <a id="kakao-link-btn" href="javascript:sendLink()"><img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/></a>
 <input type="hidden" id = "ShareUrl">
