@@ -54,10 +54,10 @@
 #map_info li img {width:60px; padding-bottom:15px;}
 
 #map_detail {width:100%; padding:50px 25px 20px 25px; overflow:hidden; background-color:#fff;}
-#map_detail h4 {font-size:21px; font-weight:normal; padding-bottom:15px; font-family: 'MapoFlowerIsland';}
+#map_detail h4 {font-size:20px; font-weight:normal; padding-bottom:15px; font-family: 'MapoFlowerIsland'; color:#000;}
 #map_detail ul {width:100%; overflow:hidden; padding-bottom:25px;}
-#map_detail li {width:100; overflow:hidden; padding-bottom:10px; font-size:15px; font-family: 'MapoFlowerIsland'; color:#555; line-height:22px;}
-#map_detail li b {font-weight:bold; margin-right:10px; font-family: 'MapoFlowerIsland'; }
+#map_detail li {width:100; overflow:hidden; padding-bottom:10px; font-size:14px; font-family: 'MapoFlowerIsland'; color:#555; line-height:20px;}
+#map_detail li b {font-weight:bold; margin-right:5px; font-family: 'MapoFlowerIsland'; }
 
 #share {
 	width:100%; overflow:hidden; padding:50px 0; 
