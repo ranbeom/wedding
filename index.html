@@ -186,27 +186,15 @@ $(document).ready(function(){
 		</li>
 		<li>
 			<img src="https://user-images.githubusercontent.com/79675829/110248665-322cf480-7f6a-11eb-8e86-b241b933790c.png"/><br>
-			<form name="clipboard"><input name="url" type="text"></form>
-			<a href="javascript:urlClipCopy()">청첩장 주소<br>복사하기</button></a>
-			<!--<input type="hidden" id = "ShareUrl">
-			<span class="btn-type1"><button OnClick="javascript:CopyUrlToClipboard()">청첩장 주소<br>복사 하기</button></span>-->
+	
+			<input type="text" id = "ShareUrl">
+			<span class="btn-type1"><button OnClick="javascript:CopyUrlToClipboard()">청첩장 주소<br>복사하기</button></span>
 		</li>
 	</ul>
 </div>
 	
 
-<script language="javascript">
 
-function urlClipCopy() {
-var f = document.clipboard.url;
-f.value = document.location.href;
-f.select() ;
-therange=f.createTextRange() ;
-therange.execCommand("Copy");
-alert("클립보드로 URL이 복사되었습니다.");
-}
-
-</script>
 	
 <!--	
 	![icon_url](https://user-images.githubusercontent.com/79675829/110248665-322cf480-7f6a-11eb-8e86-b241b933790c.png)
