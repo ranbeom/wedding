@@ -72,6 +72,8 @@
 #share li a {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 #share li button {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 
+.account {width:100%; overflow:hidden; background-color:#fafafa;}
+
 
 html {
 	overflow-y:scroll;
