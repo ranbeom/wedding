@@ -71,13 +71,12 @@
 #share li button {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 
 .account {width:100%; padding:50px 25px; overflow:hidden; background-color:#fafafa; text-align:center;}
-.account h4 {color:#000; font-family: 'MapoFlowerIsland'; font-size:20px;}
+.account h4 {color:#000; font-family: 'MapoFlowerIsland'; font-size:23px;}
 .account p {color:#000; font-size:15px; line-height:20px; font-family: 'MapoFlowerIsland'; padding:10px 0 40px 0;}
 .account ul {width:100%; overflow:hidden;}
 .account li {float:left; width:50%; text-align:center; color:#000; font-family: 'MapoFlowerIsland'; }
-.account li h3 {font-family: 'MapoFlowerIsland'; font-weight:normal; padding-bottom:15px; font-size:18px;}
-.account li span {font-family: 'MapoFlowerIsland'; line-height:22px; font-size:16px; }
-
+.account li h3 {font-family: 'MapoFlowerIsland'; font-weight:normal; padding-bottom:15px; font-size:20px;}
+.account li span {font-family: 'MapoFlowerIsland'; line-height:22px; font-size:18px; }
 
 html {
 	overflow-y:scroll;
