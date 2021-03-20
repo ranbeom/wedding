@@ -187,17 +187,40 @@ $(document).ready(function(){
 	
 	<ul>
 		<li>
-			<h3>·· 신랑측 ··</h3>
-			<span>국민은행<br>031602-04-206637<br>예금주 : 김범준</span>
+			<input id="myInput" value="03160204206637" style="opacity:0.0;">
+			<button onclick="copy_to_clipboard()">
+				<h3>·· 신랑측 ··</h3>
+				<span>국민은행<br>031602-04-206637<br>예금주 : 김범준</span>
+			</button>
 		</li>
 		<li>
-			<h3>·· 신부측 ··</h3>
-			<span>국민은행<br>590601-01-481726<br>예금주 : 김란</span>
+			<input id="myInput2" value="5906010148172" style="opacity:0.0;">
+			<button onclick="copy_to_clipboard()">
+				<h3>·· 신부측 ··</h3>
+				<span>국민은행<br>590601-01-481726<br>예금주 : 김란</span>
+			</button>
 		</li>
 	</ul>
 	
 	<!--<h2>(계좌정보를 터치하시면 복사가 됩니다.)</h2>-->
 </div>
+	
+
+<script>
+function copy_to_clipboard() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+}
+</script>
+
+<script>
+function copy_to_clipboard2() {
+  var copyText2 = document.getElementById("myInput2");
+  copyText2.select();
+  document.execCommand("Copy");
+}
+</script>
 	
 <div id="share">
 	<ul>
