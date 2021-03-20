@@ -205,24 +205,6 @@ $(document).ready(function(){
 	<!--<h2>(계좌정보를 터치하시면 복사가 됩니다.)</h2>-->
 </div>
 	
-
-<script>
-function copy_to_clipboard() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  document.execCommand("Copy");
-  alert("신랑측 계좌번호가 복사되었습니다."); 
-}
-</script>
-
-<script>
-function copy_to_clipboard2() {
-  var copyText2 = document.getElementById("myInput2");
-  copyText2.select();
-  document.execCommand("Copy");
-  alert("신부측 계좌번호가 복사되었습니다.");
-}
-</script>
 	
 <div id="share">
 	<ul>
@@ -329,6 +311,24 @@ function CopyUrlToClipboard()
 
 	alert("청첩장 주소가 복사되었습니다"); 
 
+}
+</script>
+	
+<script>
+function copy_to_clipboard() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("Copy");
+  alert("신랑측 계좌번호가 복사되었습니다."); 
+}
+</script>
+
+<script>
+function copy_to_clipboard2() {
+  var copyText2 = document.getElementById("myInput2");
+  copyText2.select();
+  document.execCommand("Copy");
+  alert("신부측 계좌번호가 복사되었습니다.");
 }
 </script>
 
