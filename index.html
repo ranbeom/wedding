@@ -196,7 +196,7 @@ $(document).ready(function(){
 		</li>
 		<li>
 			<input id="myInput2" value="5906010148172" style="opacity:0.0;">
-			<button onclick="copy_to_clipboard()">
+			<button onclick="copy_to_clipboard2()">
 				<h3>·· 신부측 ··</h3>
 				<span>국민은행<br>590601-01-481726<br>예금주 : 김란</span>
 			</button>
@@ -212,6 +212,7 @@ function copy_to_clipboard() {
   var copyText = document.getElementById("myInput");
   copyText.select();
   document.execCommand("Copy");
+  alert("신랑측 계좌번호가 복사되었습니다."); 
 }
 </script>
 
@@ -220,6 +221,7 @@ function copy_to_clipboard2() {
   var copyText2 = document.getElementById("myInput2");
   copyText2.select();
   document.execCommand("Copy");
+  alert("신부측 계좌번호가 복사되었습니다.");
 }
 </script>
 	
@@ -287,19 +289,13 @@ function copy_to_clipboard2() {
 	
 <script language="javascript">
 function CopyUrlToClipboard()
-
 {
-
 	var obShareUrl = document.getElementById("ShareUrl");
-
 	obShareUrl.value = window.document.location.href;  // 현재 URL 을 세팅해 줍니다.
 
 
-
 	obShareUrl.select();  // 해당 값이 선택되도록 select() 합니다
-
 	document.execCommand("copy"); // 클립보드에 복사합니다.
-
 
 
 	obShareUrl.blur(); // 선택된 것을 다시 선택안된것으로 바꿈니다.
