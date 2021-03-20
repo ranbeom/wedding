@@ -75,7 +75,7 @@
 .account {width:100%; padding:50px 25px; overflow:hidden; background:url('https://user-images.githubusercontent.com/79675829/111876883-8f786b00-8998-11eb-8a07-5c5bd026327b.jpg')center no-repeat; background-size:cover; text-align:center;}
 .account h4 {color:#000; font-family: 'MapoFlowerIsland'; font-size:23px;}
 .account p {color:#000; font-size:15px; line-height:20px; font-family: 'MapoFlowerIsland'; padding:20px 0 40px 0;}
-.account ul {}
+.account ul {width:100%; background-color:#333; overflow:hidden;}
 .account li {float:left; width:50%; text-align:center; color:#000; font-family: 'MapoFlowerIsland'; }
 .account li h3 {font-family: 'MapoFlowerIsland'; font-weight:bold; padding-bottom:15px; font-size:20px;}
 .account li span {font-family: 'MapoFlowerIsland'; line-height:22px; font-size:16px; }
