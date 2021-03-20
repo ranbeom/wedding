@@ -78,6 +78,8 @@
 .account li {float:left; width:50%; text-align:center; color:#000; font-family: 'MapoFlowerIsland'; }
 .account li h3 {font-family: 'MapoFlowerIsland'; font-weight:bold; padding-bottom:15px; font-size:20px;}
 .account li span {font-family: 'MapoFlowerIsland'; line-height:22px; font-size:16px; }
+.account button {padding:0; margin:0;}
+.account input {font-size:10px; padding:0; margin:0;}
 
 html {
 	overflow-y:scroll;
