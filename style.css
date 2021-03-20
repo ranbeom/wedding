@@ -65,8 +65,8 @@
 	background-size:cover;
 	text-align:center;
 }
-#share ul {width:280px; margin:0 auto;}
-#share li {float:left; width:50%; text-align:center; }
+#share ul {width:100%;}
+#share li {float:left; width:33.3333%; text-align:center; }
 #share li img {width:60px; padding-bottom:10px;}
 #share li a {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 #share li button {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
