@@ -76,7 +76,7 @@
 .account p {color:#000; font-size:15px; line-height:22px; font-family: 'MapoFlowerIsland'; padding:10px 0 20px 0;}
 .account ul {width:100%; overflow:hidden;}
 .account li {float:left; width:50%; text-align:center; font-size:18px; color:#000; font-family: 'MapoFlowerIsland'; }
-.account li span {display:block; font-family: 'MapoFlowerIsland'; }
+.account li h2 {display:block; font-family: 'MapoFlowerIsland'; }
 
 html {
 	overflow-y:scroll;
