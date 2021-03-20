@@ -72,7 +72,12 @@
 #share li a {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 #share li button {color:#fff; font-size:16px; line-height:22px; font-family: 'MapoFlowerIsland';}
 
-.account {width:100%; overflow:hidden; background-color:#fafafa;}
+.account {width:100%; padding:50px 25px; overflow:hidden; background-color:#fafafa; text-align:center;}
+.account h4 {color:#000; font-family: 'MapoFlowerIsland'; font-size:20px;}
+.account p {color:#000; font-size:15px; line-height:22px; font-family: 'MapoFlowerIsland'; padding:10px 0 20px 0;}
+.account ul {width:100%; overflow:hidden;}
+.account li {float:left; width:50%; text-align:center; font-size:18px; color:#000;}
+.account li span {display:block;}
 
 
 html {
