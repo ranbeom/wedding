@@ -75,11 +75,11 @@
 .account h4 {color:#000; font-family: 'MapoFlowerIsland'; font-size:23px;}
 .account p {color:#000; font-size:15px; line-height:20px; font-family: 'MapoFlowerIsland'; padding:20px 0 40px 0;}
 .account ul {width:100%;  overflow:hidden;}
-.account li {float:left; width:50%; text-align:center; color:#000; font-family: 'MapoFlowerIsland'; background-color:#555; overflow:hidden;}
+.account li {float:left; width:50%; text-align:center; color:#000; font-family: 'MapoFlowerIsland'; overflow:hidden;}
 .account li h3 {font-family: 'MapoFlowerIsland'; font-weight:bold; padding-bottom:15px; font-size:20px;}
 .account li span {font-family: 'MapoFlowerIsland'; line-height:22px; font-size:16px; }
 .account button {padding:0; margin:0;}
-.account input {font-size:10px; padding:0; margin:0;}
+.account input {font-size:10px; padding:0; margin:0; display:block;}
 
 html {
 	overflow-y:scroll;
