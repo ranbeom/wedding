@@ -81,6 +81,7 @@
 .account li:nth-child(2) h3 {color:#f39999;}
 .account button {padding:0; margin:0;}
 .account input {font-size:10px; padding:0; margin:0; display:block;}
+.account h2 {width:100%; overflow:hidden; padding-top:25px; font-size:14px; opacity:0.5; font-family: 'MapoFlowerIsland';}
 
 
 html {
