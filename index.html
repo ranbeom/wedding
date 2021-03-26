@@ -30,6 +30,7 @@
    <p>2021년 4월 17일 토요일 오후 2시<br>디노체컨벤션 6층 아트홀</p>
 </div>
 
+	
 <div id="greeting">
    <div class="box">
       <h4>KIM BEOM JUN & KIM RAN</h4>
@@ -348,8 +349,24 @@ function copy_to_clipboard2() {
   alert("신부측 계좌번호가 복사되었습니다.");
 }
 </script>
+	
+<script>
+function copy_to_clipboard3() {
+  var copyText3 = document.getElementById("myInput3");
+  copyText3.select();
+  document.execCommand("Copy");
+  alert("신랑측 계좌번호가 복사되었습니다."); 
+}
+</script>
 
-
+<script>
+function copy_to_clipboard4() {
+  var copyText4 = document.getElementById("myInput4");
+  copyText4.select();
+  document.execCommand("Copy");
+  alert("신부측 계좌번호가 복사되었습니다.");
+}
+</script>
 </div>   
   
 </body>
